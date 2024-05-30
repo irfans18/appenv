@@ -51,8 +51,8 @@ server.port=8081
 server.error.include-stacktrace=never
 
 #JWT Config
-independent.jwt.secret_key=${APPENV_JWT_SECRET:YXBwZW52ZV9zdXBlcl9zdHJvbmdfand0X2F1dGhlbnRpY2F0aW9uX3Rva2Vu}
-independent.jwt.expirationInSecond=${APPENV_JWT_EXPIRATION:86400}
+appenv.jwt.secret_key=${APPENV_JWT_SECRET:YXBwZW52ZV9zdXBlcl9zdHJvbmdfand0X2F1dGhlbnRpY2F0aW9uX3Rva2Vu}
+appenv.jwt.expirationInSecond=${APPENV_JWT_EXPIRATION:86400}
 ```
 
 The generated `.env.example` file will look like:
